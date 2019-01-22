@@ -8,6 +8,7 @@ class TestMerge(unittest.TestCase):
 
 	# when merged, total number of feature should match
 	def test_merge_numberconsistent(self):
+		
 		sourcedb = '..' + os.sep + 'data.gdb'
 		testgdb = '..' + os.sep + 'testoutput.gdb'
 		merge_num = int(arcpy.GetCount_management(testgdb + os.sep + 'merge')[0])
