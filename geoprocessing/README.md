@@ -7,6 +7,8 @@ Since the default conda environment `arcgispro-py3` is read-only, we need to cre
 
 To test this completes successfuly, you can run `conda env list` and check if `{your-env-name}` is in the output.
 
+To start coding, change your working directory to `geoprocessing` and run `ipython`. Within IPython or Jupyter notebook, you can interact with `arcpy` and run scripts directly using the builtin magic function `%run`.
+
 ## Background
 
 The need to design a test-able, modular geoprocessing workflow is imperative. We start by de-coupling the process from the associated data...
