@@ -29,3 +29,7 @@ docker run -it -p 127.0.0.1:8887:8888 -v %cd%/workspace:/home/jovyan/work --name
 ```
 
 This would bind your current `worksapce` folder to  `/home/jovyan/work` for persistent storage.
+
+## `config.py`
+
+The notebook saves the user name and password in the `config.py` in the same folder. This is imported by the notebook and not tracked.
